@@ -6,7 +6,7 @@ Turn a PDF into a fillable form on your own computer. Detect common checkboxes a
 
 1. Install Python if it is not already installed.
 2. Download and extract this project, or clone the repository.
-3. Open the `pdf-form-studio` folder in VS Code.
+3. Open the `make_pdf_fillable` folder in VS Code.
 4. Open **Terminal > New Terminal**. Make sure the terminal is in the folder containing `make_fillable.py` and `requirements.txt`.
 5. Install the required packages (only needed the first time):
 
@@ -65,9 +65,6 @@ Detection supports small drawn boxes, the Unicode empty checkbox character, and 
 
 This project processes documents locally and does not upload them. Keep private PDFs and completed forms out of a public repository. The included `.gitignore` excludes PDFs except the neutral sample. Review staged files before committing.
 
-## Public GitHub setup
-
-Create a public repository named `pdf-form-studio`. Upload this folder's contents, including `.gitignore`, `README.md`, requirements, and examples. Do not include workplace or completed forms. No personal paths are stored in the code.
 
 ## License
 
