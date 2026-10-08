@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+input/
+output/
+*_fillable.pdf
+*.pdf
+!examples/sample_form.pdf
+*.json
+!examples/sample_layout.json
